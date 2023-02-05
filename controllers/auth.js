@@ -15,6 +15,7 @@ const db = mysql.createConnection({ // db hez valo kapcsolodas
 // register
 
 exports.register = (req,res) =>{
+    res.status(200).send(data)
 console.log(req.body);
 
 /*const name = req.body.name;
